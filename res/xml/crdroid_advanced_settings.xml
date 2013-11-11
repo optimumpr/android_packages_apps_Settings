@@ -53,6 +53,12 @@
             android:title="@string/voice_tts_title"
             android:fragment="com.android.settings.aicp.TtsNotification" />
 
+        <!-- CPU info overlay -->
+	<CheckBoxPreference
+            android:key="show_cpu_info"
+            android:title="@string/show_cpu_info"
+            android:summary="@string/show_cpu_info_summary"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

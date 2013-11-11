@@ -40,9 +40,11 @@ public class AdvancedSettings extends SettingsPreferenceFragment
 
     private static final String PREF_MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
     private static final String RESTART_SYSTEMUI = "restart_systemui";
+    private static final String SHOW_CPU_INFO_KEY = "show_cpu_info";
 
     private ListPreference mMsob;
     private Preference mRestartSystemUI;
+    private CheckBoxPreference mShowCpuInfo;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,7 +59,7 @@ public class AdvancedSettings extends SettingsPreferenceFragment
         mMsob.setOnPreferenceChangeListener(this);
 
         mRestartSystemUI = findPreference(RESTART_SYSTEMUI);
-
+        mShowCpuInfo = (CheckBoxPreference) findPreference(SHOW_CPU_INFO_KEY);
     }
 
     @Override
@@ -65,10 +67,25 @@ public class AdvancedSettings extends SettingsPreferenceFragment
         super.onResume();
     }
 
+    private void writeCpuInfoOptions() {
+        boolean value = mShowCpuInfo.isChecked();
+        Settings.Global.putInt(getActivity().getContentResolver(),
+                Settings.Global.SHOW_CPU, value ? 1 : 0);
+        Intent service = (new Intent())
+                .setClassName("com.android.systemui", "com.android.systemui.CPUInfoService");
+        if (value) {
+            getActivity().startService(service);
+        } else {
+            getActivity().stopService(service);
+        }
+    }
+
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mRestartSystemUI) {
             Helpers.restartSystemUI();
+        } else if (preference == mShowCpuInfo) {
+            writeCpuInfoOptions();
         }
 
         return super.onPreferenceTreeClick(preferenceScreen, preference);
