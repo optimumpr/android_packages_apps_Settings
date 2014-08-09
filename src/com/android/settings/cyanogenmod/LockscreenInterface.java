@@ -61,6 +61,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private static final String KEY_SEE_THROUGH = "see_through";
     private static final String KEY_BLUR_RADIUS = "blur_radius";
     private static final String KEY_ENABLE_POWER_MENU = "lockscreen_enable_power_menu";
+    private static final String KEY_LOCKSCREEN_MUSIC_CONTROLLER ="keyguard_enable_musiccontroller";
 
     private static final int DLG_ALL_WIDGETS = 0;
 
@@ -76,6 +77,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private CheckBoxPreference mSeeThrough;
     private SeekBarPreferenceCHOS mBlurRadius;
     private CheckBoxPreference mEnablePowerMenu;
+    private CheckBoxPreference mLockscreenMusicController;
 
     private ChooseLockSettingsHelper mChooseLockSettingsHelper;
     private LockPatternUtils mLockUtils;
@@ -189,6 +191,8 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             widgetsCategory.removePreference(
                     mEnableMaximizeWidgets);
         }
+        mLockscreenMusicController = (CheckBoxPreference)findPreference(KEY_LOCKSCREEN_MUSIC_CONTROLLER);
+        mLockscreenMusicController.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.LOCKSCREEN_MUSIC_SWITCH, 1) == 1);
     }
 
     @Override
@@ -264,6 +268,11 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             return true;
         } else if (KEY_ENABLE_CAMERA.equals(key)) {
             mLockUtils.setCameraEnabled(mEnableCameraWidget.isChecked());
+            return true;
+        } else if (KEY_LOCKSCREEN_MUSIC_CONTROLLER.equals(key)) {
+	    boolean value = mLockscreenMusicController.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_MUSIC_SWITCH, value ? 1 : 0);
             return true;
         } else if (preference == mSeeThrough) {
             Settings.System.putInt(getContentResolver(),

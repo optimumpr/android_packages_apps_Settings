@@ -1182,4 +1182,8 @@
     <string name="battery_bar_title">Battery Bar</string>
     <string name="status_bar_battery_cat_title">Battery</string>
 
+    <!-- Switchable LockScreen Music Controller -->
+    <string name="lockscreen_music_controller_title">Media Controller</string>
+    <string name="lockscreen_music_controller_summary">Show media controller and albumart when playing music</string>
+
 </resources>
