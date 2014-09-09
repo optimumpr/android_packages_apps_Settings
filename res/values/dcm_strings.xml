@@ -1186,4 +1186,8 @@
     <string name="lockscreen_music_controller_title">Media Controller</string>
     <string name="lockscreen_music_controller_summary">Show media controller and albumart when playing music</string>
 
+    <!-- Quicksettings panel floating window -->
+    <string name="title_floating_window">Floating window</string>
+    <string name="summary_floating_window">Open Quick Settings tiles in floating window</string>
+
 </resources>
