@@ -27,7 +27,7 @@
     <string name="theme_auto_mode_title">Cambia tema</string>
     <string name="theme_auto_mode_off">Manuale</string>
     <string name="theme_auto_mode_lightsensor">Al variare delle condizioni di luce</string>
-    <string name="theme_auto_mode_twilight">In base all'ora</string>
+    <string name="theme_auto_mode_twilight">In base all\'ora</string>
     <string name="theme_auto_switch_mode_error">Il cambio automatico in base alle condizioni di luce è attivo. Il cambio manuale non è possibile.</string>
     <string name="trds_default_color">Colori TRDS predefiniti</string>
 
@@ -248,7 +248,7 @@
     <string name="wake_on_notification_summary">Risveglia il dispositivo quando arriva una nuova notifica</string>
     <string name="notifications_height">Contatore Notifiche</string>
     <string name="notifications_height_summary">Numero di notifiche mostrate</string>
-    <string name="offset_top">Spazio all'inizio dello schermo:</string>
+    <string name="offset_top">Spazio all\'inizio dello schermo:</string>
     <string name="privacy_mode">Modalità Riservatezza</string>
     <string name="privacy_mode_summary">Disabilita la possibilità di vedere le notifiche espanse e rifiutarle. Vedrai solo le icone delle notifiche.</string>
     <string name="excluded_apps_title">App escluse</string>
@@ -257,11 +257,11 @@
 
     <string name="notifications_on_lockscreen">Notifiche nella schermata di sblocco</string>
     <string name="notifications_on_lockscreen_summary">Scegli come mostrare le notifiche nella schermata di sblocco</string>
-    <string name="notifications_on_lockscreen_warning_summary">Ognuno dei servizi di notifica utilizzati nella schermata di sblocco disabiliterà automaticamente l'altro. Assicurati di controllare quando ne disabiliti uno se desideri utilizzarne una caratteristica.</string>
+    <string name="notifications_on_lockscreen_warning_summary">Ognuno dei servizi di notifica utilizzati nella schermata di sblocco disabiliterà automaticamente l\'altro. Assicurati di controllare quando ne disabiliti uno se desideri utilizzarne una caratteristica.</string>
 
     <!--Notification peek-->
     <string name="notification_peek_title">Sbirciatina</string>
-    <string name="notification_peek_summary">Mostra l'ultima notifica nel prendere il dispositivo</string>
+    <string name="notification_peek_summary">Mostra l\'ultima notifica nel prendere il dispositivo</string>
     <string name="peek_wake_timeout_title">Timeout risveglio</string>
     <string name="peek_pickup_timeout_title">Timeout di scomparsa sbirciatina</string>
     <string name="peek_pickup_10seconds">10 secondi (default)</string>
@@ -460,4 +460,6 @@
     
     <!-- Custom Recent Settings -->
     <string name="custom_recent_title">Cambia stile dei recenti</string>
-    <string name="custom_recent_summary">Spuntare su recenti Slim o deselezionare per recenti con grafica stock. SPUNTANDO O DESELEZIONANDO L'\OPZIONE RIAVVIERÀ LA TUA SYSTEMUI</string>
+    <string name="custom_recent_summary">Selezionare su recenti Slim o deselezionare per recenti con grafica stock. SELEZIONANDO O DESELEZIONANDO L\'OPZIONE RIAVVIERÀ LA TUA SYSTEMUI</string>
+
+</resources>
