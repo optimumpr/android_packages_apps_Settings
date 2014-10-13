@@ -4,7 +4,13 @@
 
     <!-- About phone screen, DCM version -->
     <string name="dcm_version_title">DarkCyanogenMod version</string>
+
+    <!-- DO NOT TRANSLATE THIS STRING -->
     <string name="dcm_version_default">6.00</string>
+
+    <!-- DCM Translator strings -->
+    <string name="translator_title">Translator</string>
+    <string name="translator_error">Unable to load translator</string>
 
     <!-- General strings -->
     <string name="attention">Attention</string>
