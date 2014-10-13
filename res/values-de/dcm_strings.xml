@@ -61,8 +61,8 @@
     <string name="halo_size_gigantic">Gigantisch</string>
     <string name="halo_size_monster">Monster</string>
 
-    <string name="halo_notification_count_title">Benachrichtigung Zählerl</string>
-    <string name="halo_notification_count_summary">Anzeigebenachrichtigungzähler von Halo</string>
+    <string name="halo_notification_count_title">Benachrichtigungs Zähler</string>
+    <string name="halo_notification_count_summary">Anzeigebenachrichtigungszähler von Halo</string>
     <string name="halo_notification_count_none">Keine</string>
     <string name="halo_notification_count_total">Gesamt</string>
     <string name="halo_notification_count_individual">Pro Anwendung</string>
