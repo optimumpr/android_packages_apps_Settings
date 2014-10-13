@@ -9,8 +9,8 @@
     <string name="dcm_version_default">7.00</string>
 
     <!-- DCM Translator strings -->
-    <string name="translator_title">Translator</string>
-    <string name="translator_error">Unable to load translator</string>
+    <string name="translator_title">DarkCyanogenMod Translators</string>
+    <string name="translator_error">Unable to load DarkCyanogenMod translators</string>
 
     <!-- General strings -->
     <string name="attention">Attention</string>
