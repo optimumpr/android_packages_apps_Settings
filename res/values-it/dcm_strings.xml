@@ -257,7 +257,7 @@
 
     <string name="notifications_on_lockscreen">Notifiche nella schermata di sblocco</string>
     <string name="notifications_on_lockscreen_summary">Scegli come mostrare le notifiche nella schermata di sblocco</string>
-    <string name="notifications_on_lockscreen_warning_summary">Ognuno dei servizi di notifica utilizzati nella schermata di sblocco disabiliterà automaticamente l\'altro. Assicurati di controllare quando ne disabiliti uno se desideri utilizzarne una caratteristica.</string>
+    <string name="notifications_on_lockscreen_warning_summary">Ognuno dei servizi di notifica utilizzati nella schermata di sblocco disabiliterà automaticamente l\'altro. Assicurati di controllare quando ne disabiliti uno se desideri utilizzarne una caratteristica. SBIRCIATINA o/e NOTIFICHE SCHERMATA DI SBLOCCO possono causare un eccessivo consumo di batteria.</string>
 
     <!--Notification peek-->
     <string name="notification_peek_title">Sbirciatina</string>
