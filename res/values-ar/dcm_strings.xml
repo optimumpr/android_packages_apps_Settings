@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, DarkCM version -->
+    <string name="dcm_version_title">DarkCyanogenMod نسخة</string>
+
+    <!-- General strings -->
+    <string name="attention">انتباه</string>
+    <string name="misc_title">متفرقات</string>
+    <string name="default_string">افتراضى</string>
+    <string name="recent_panel_settings_title">اعادة تعين الخيارات</string>
+    <string name="reset">اعادة تعين</string>
+    <string name="reset_colors">اعادة تعين كل الالوان الى اللون الافتراضى?</string>
+    <string name="reset_default_message">تعين الافتراضى</string>
+    <string name="ok">تم</string>
+    <string name="enabled">تشغيل</string>
+    <string name="disabled">ايقاف</string>
+    <string name="note">ملاحظة</string>
+
+    <!-- Advanced settings -->
+    <string name="advanced_options_settings_title">متقدم</string>
+
+    <!-- TRDS -->
+    <string name="theme_settings_title">Dark Mode</string>
+    <string name="theme_auto_mode_title">الانتقال الى الثيم</string>
+    <string name="theme_auto_mode_off">يدوى</string>
+    <string name="theme_auto_mode_lightsensor">بشأن تغير حالة خفيفة</string>
+    <string name="theme_auto_mode_twilight">فى النهار</string>
+    <string name="theme_auto_switch_mode_error">يتم تمكين ضوء حالة تغيير الوضع التلقائي. التبديل اليدوي غير ممكن.</string>
+
+    <!-- TRDS tile -->
+    <string name="title_tile_theme">الانتقال الى الثيم</string>
+
+</resources>
