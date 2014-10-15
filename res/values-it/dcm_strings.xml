@@ -525,7 +525,7 @@
     <string name="kill_app_longpress_timeout_title">Timeout pressione prolungata</string>
     <string name="timeout_2000">2 secondi (default)</string>
     <string name="timeout_1500">1,5 secondi</string>
-    <string name="timeout_1000">1 secondi</string>
+    <string name="timeout_1000">1 secondo</string>
     <string name="timeout_500">0,5 secondi</string>
 
     <!-- Keyguard widget frame -->
@@ -612,5 +612,232 @@
     <string name="ga_gestures_rename_label">Nome gesto</string>
     <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures. CHAR LIMIT=80 -->
     <string name="ga_gestures_error_loading">Impossibile caricare %s. Assicurati di avere spazio disponibile.</string>
+
+<!-- Pie Control -->
+<string name="pie_navigation_title">Navigazione circolare</string>
+<string name="pie_control_title">Cerchio</string>
+<string name="pie_control_summary">Attiva controlli circolari</string>
+<string name="pie_control_size">Dimensione</string>
+<string name="pie_control_trigger_positions">Opzioni di attivazione</string>
+<string name="pie_control_trigger_left">Attiva dal bordo sinistro dello schermo</string>
+<string name="pie_control_trigger_bottom">Attiva dal bordo inferiore dello schermo</string>
+<string name="pie_control_trigger_right">Attiva dal bordo destro dello schermo</string>
+<string name="pie_control_trigger_top">Attiva dal bordo superiore dello schermo</string>
+<string name="pie_control_trigger_top_summary">Posizionare il cerchio in alto nasconde le informazioni e lo stato dell'orologio</string>
+<string name="pie_button_style">Stile pulsanti</string>
+<string name="pie_button_color_title">Colore pulsanti</string>
+<string name="pie_button_alpha_title">Trasparenza pulsanti</string>
+<string name="pie_button_outline_color_title">Colore contorno pulsanti</string>
+<string name="pie_button_pressed_color_title">Colore pulsante premuto</string>
+<string name="pie_button_long_pressed_color_title">Colore pressione prolungata pulsante</string>
+<string name="pie_button_pressed_alpha_title">Trasparenza pulsante premuto</string>
+<string name="pie_icon_style">Stile icona pulsante</string>
+<string name="pie_icon_color_title">Colore icona pulsante</string>
+<string name="pie_icon_color_mode_title">Modalità colore icona pulsante</string>
+<string name="pie_icon_color_mode_dialog_title">Colora</string>
+<string name="pie_icon_color_mode_summary">Cambia la modalità colore dell\'icona</string>
+<string name="pie_trigger_note_title">Nota</string>
+<string name="pie_trigger_note_summary">Per evitare conflitti con la barra di stato o la barra di navigazione, se sono presenti singolarmente o entrambe, gli attivatori su questi bordi sono disattivati automaticamente</string>
+<string name="pie_background_color_title">Colore sfondo</string>
+<string name="pie_snap_color_title">Colore punto di aggancio</string>
+<string name="pie_text_color_title">Colore testo</string>
+<string name="pie_background_alpha_title">Trasparenza sfondo</string>
+<string name="pie_mirror_right_title">Specchia cerchio</string>
+<string name="pie_mirror_right_summary">Specchia il cerchio rispetto all\'asse orizzontale</string>
+<string name="pie_style">Stile e dimensioni</string>
+<string name="pie_style_title">Stile</string>
+<string name="pie_dimens_title">Dimensioni</string>
+<string name="pie_additional_options">Opzioni aggiuntive</string>
+<string name="pie_show_snap_title">Mostra punti di aggancio</string>
+<string name="pie_show_snap_summary">Mostra i punti di aggancio per cambiare dinamicamente i bordi di attivazione </string>
+<string name="pie_show_text_title">Mostra stato e orologio</string>
+<string name="pie_show_text_summary">Mostra le informazioni sullo stato del telefono, la data e l\'ora</string>
+<string name="pie_show_background_title">Mostra sfondo</string>
+<string name="pie_show_background_summary">Abilita sfondo navigazione circolare</string>
+<string name="pie_button">Pulsanti</string>
+<string name="pie_button_second_layer">Pulsanti di secondo livello</string>
+<string name="pie_button_second_layer_summary">Cambia i pulsanti del secondo livello</string>
+<string name="pie_button_style_summary">Cambia lo stile dei pulsanti del menu circolare</string>
+<string name="pie_style_reset_message">Ripristina gli stili predefiniti?</string>
+<string name="pie_disable_ime_triggers_title">Riduci gli attivatori con la tastiera</string>
+<string name="pie_disable_ime_triggers_summary">Riduce la dimensione degli attivatori a destra e sinistra se è attiva la tastiera</string>
+<string name="title_pref_menu_display">Visibilità menu</string>
+<string name="summary_pref_menu_display">Quando e come vuoi far apparire i pulsanti del menu?</string>
+<string name="navigation_menu_default_jb_behavior">A richiesta (predefinito)</string>
+<string name="navigation_menu_never_show">Mai</string>
+<string name="navigation_menu_always_show">Sempre</string>
+<string name="default_string">Predefiniti</string>
+<string name="reset_message">Ripristinare tutte le voci predefinite?</string>
+<string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimuovendo ogni %1$s nella lista disabiliterà interamente il secondo livello del menu circolare.</string>
+
+
+<!-- Button shorcut actions -->
+<string name="shortcut_action_app">App personalizzata</string>
+<string name="shortcut_action_home">Home</string>
+<string name="shortcut_action_back">Indietro</string>
+<string name="shortcut_action_recent">Recenti</string>
+<string name="shortcut_action_lastapp">Ultima app</string>
+<string name="shortcut_action_assist">Cerca</string>
+<string name="shortcut_action_screenshot">Cattura schermo</string>
+<string name="shortcut_action_menu">Menu</string>
+<string name="shortcut_action_menu_big">Menu</string>
+<string name="shortcut_action_ime">Apri commutatore IME</string>
+<string name="shortcut_action_kill">Termina app</string>
+<string name="shortcut_action_power_menu">Menu tasto di alimentazione</string>
+<string name="shortcut_action_power">Spegni schermo</string>
+<string name="shortcut_action_notifications">Notifiche</string>
+<string name="shortcut_action_none">Nessuno</string>
+<string name="shortcut_action_qs">Pannello Quick Settings</string>
+<string name="shortcut_action_torch">Torcia</string>
+<string name="shortcut_action_longpress">Pressione prolungata:</string>
+<string name="shortcut_action_select_action">Scegli azione:</string>
+<string name="shortcut_action_select_action_newbutton">Scegli nuova azione:</string>
+<string name="shortcut_action_reset">Resetta</string>
+<string name="shortcut_action_add">Aggiungi</string>
+<string name="shortcut_action_reset_message">Ripristinare tutte le voci predefinite?</string>
+<string name="shortcut_action_max">Raggiunto il limite massimo di voci</string>
+<string name="shortcut_action_warning">Attenzione</string>
+<string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultima voce</string>
+<string name="shortcut_action_disable_message">Disattivato\nAggiungi una voce per attivare la funzione</string>
+<string name="shortcut_image_not_valid">L\'app selezionata non ha fornito un\'icona valida o non supporta il ritaglio immagine. Usane un\'altra.</string>
+<string name="shortcut_duplicate_entry">L\'azione seguente non può essere aggiunta due volte</string>
+
+<string name="shortcut_action_help_shortcut">collegamento</string>
+<string name="shortcut_action_help_button">pulsante</string>
+<string name="shortcut_action_help_icon">, mentre selezionando l\'icona appariranno le opzioni di personalizzazione</string>
+<string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona Aggiungi. Dopo che un %1$s viene aggiunto, selezionare la riga per cambiare %2$s\n\nPer rimuovere un %1$s, trascina orizzontalmente la riga. Riordina un %1$s nella lista trascinando verticalmente il punto di ancoraggio a sinistra.\n\nPer ripulire o ripristinare i predefiniti, seleziona l\'icona di Reset.</string>
+<string name="shortcut_action_help_delete_last_entry">Rimuovendo ogni %1$s nella lista disattiverai completamente la fuzione.</string>
+<string name="shortcut_action_help">Aiuto</string>  
+
+<string name="icon_picker_type">Seleziona l\'icona:</string>
+<string name="icon_default">Predefinita</string>
+<string name="icon_presets">Icone di sistema</string>
+<string name="icon_custom">Galleria</string>
+<string name="shortcuts_icon_picker_alarm">Sveglia</string>
+<string name="shortcuts_icon_picker_andy">Andy</string>
+<string name="shortcuts_icon_picker_battery">Batteria</string>
+<string name="shortcuts_icon_picker_browser">Browser</string>
+<string name="shortcuts_icon_picker_calendar">Calendario</string>
+<string name="shortcuts_icon_picker_camera">Fotocamera</string>
+<string name="shortcuts_icon_picker_cloud">Cloud</string>
+<string name="shortcuts_icon_picker_contact">Contatto</string>
+<string name="shortcuts_icon_picker_directdial">Composizione diretta</string>
+<string name="shortcuts_icon_picker_directmessage">Messaggio diretto</string>
+<string name="shortcuts_icon_picker_drive">Drive</string>
+<string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+<string name="shortcuts_icon_picker_email">Email</string>
+<string name="shortcuts_icon_picker_email2">Email Alternativa</string>
+<string name="shortcuts_icon_picker_evernote">Evernote</string>
+<string name="shortcuts_icon_picker_facebook">Facebook</string>
+<string name="shortcuts_icon_picker_favorite">Favoriti</string>
+<string name="shortcuts_icon_picker_file_browser">File Browser</string>
+<string name="shortcuts_icon_picker_file_browser2">File Browser Alternativo</string>
+<string name="shortcuts_icon_picker_fitness">Fitness</string>
+<string name="shortcuts_icon_picker_gallery">Galleria</string>
+<string name="shortcuts_icon_picker_gears">Gears</string>
+<string name="shortcuts_icon_picker_google_small">Google</string>
+<string name="shortcuts_icon_picker_gplus">Google Plus</string>
+<string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+<string name="shortcuts_icon_picker_help">Aiuto</string>
+<string name="shortcuts_icon_picker_joystick">Joystick</string>
+<string name="shortcuts_icon_picker_key">Chiavi/Account</string>
+<string name="shortcuts_icon_picker_laptop">Laptop</string>
+<string name="shortcuts_icon_picker_notes">Note</string>
+<string name="shortcuts_icon_picker_luggage">Viaggio</string>
+<string name="shortcuts_icon_picker_maps">Mappe</string>
+<string name="shortcuts_icon_picker_market">Market</string>
+<string name="shortcuts_icon_picker_movie">Video</string>
+<string name="shortcuts_icon_picker_music">Musica</string>
+<string name="shortcuts_icon_picker_nav">Navigazione</string>
+<string name="shortcuts_icon_picker_phone">Telefono</string>
+<string name="shortcuts_icon_picker_package">Pacchetto</string>
+<string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+<string name="shortcuts_icon_picker_play">Play</string>
+<string name="shortcuts_icon_picker_pocket">Pocket</string>
+<string name="shortcuts_icon_picker_quicksettings">Quick Settings</string>
+<string name="shortcuts_icon_picker_rss">RSS Feed</string>
+<string name="shortcuts_icon_picker_sdcard">SDCard</string>
+<string name="shortcuts_icon_picker_search">Cerca</string>
+<string name="shortcuts_icon_picker_sms">Messaggistica</string>
+<string name="shortcuts_icon_picker_tasks">Attività</string>
+<string name="shortcuts_icon_picker_terminal">Terminale</string>
+<string name="shortcuts_icon_picker_transit">Transit</string>
+<string name="shortcuts_icon_picker_tv">TV</string>
+<string name="shortcuts_icon_picker_twitter">Twitter</string>
+<string name="shortcuts_icon_picker_unlock">Sblocco</string>
+
+<string name="icon_color_mode_all_icons">Tutte le icone</string>
+<string name="icon_color_mode_system_icons">Icone di sistema</string>
+<string name="icon_color_mode_system_custom_icons">Icone personalizzate e di sistema</string>
+<string name="icon_picker_choose_icon_title">Scegli icona</string>
+<string name="group_applications">Applicazioni</string>
+<string name="select_custom_app_title">Seleziona app personalizzate</string>
+<string name="shortcuts_color_title">Colore icona</string>
+<string name="shortcuts_color_summary">Colora le icone dei collegamenti </string>
+<string name="shortcuts_color_mode_title">Modalità colore icona</string>
+<string name="shortcuts_color_mode_summary">Cambia la modalità colore delle icone dei collegamenti</string>
+
+<string name="icon_picker_type">Seleziona l\'icona:</string>
+<string name="icon_default">Predefinita</string>
+<string name="icon_presets">Icone di sistema</string>
+<string name="icon_custom">Galleria</string>
+<string name="icon_pack">Pacchetto icone</string>
+<string name="icon_picker_choose_icon_title">Scegli icona</string>
+<string name="icon_color_mode_all_icons">Tutte le icone</string>
+<string name="icon_color_mode_system_icons">Icone di sistema</string>
+<string name="icon_color_mode_system_custom_icons">Icone custom e di sistema</string>
+<string name="group_applications">Applicazioni</string>
+<string name="select_custom_app_title">Seleziona app personalizzate</string>
+<string name="shortcuts_text_color_title">Colore testo</string>
+<string name="shortcuts_color_title">Colore icona</string>
+<string name="shortcuts_color_mode_title">Modalità colore icona</string>
+<string name="shortcuts_color_mode_summary">Cambia la modalità colore delle icone dei collegamenti</string>
+
+<!-- Power menu nav bar -->
+<string name="power_menu_navbar_title">Barra di navigazione</string>
+<string name="navigation_bar_warning_no_navigation_present">Nessun altro metodo di navigazione è attualmente abilitato. Disattivare la barra di navigazione può rendere il dispositivo inutilizzabile. Vuoi attivare i controlli circolari?</string>
+<string name="pie_warning_no_navigation_present">Nessun altro metodo di navigazione è attualmente abilitato. La disattivazione dei controlli circolari può rendere il dispositivo inutilizzabile. Vuoi abilitare la barra di navigazione?</string>
+<string name="pie_trigger_warning">Almeno una delle aree di attivazione (in basso, a sinistra o a destra) deve essere abilitata.</string>
+
+<!-- Lockscreen all widgets -->
+<string name="lockscreen_allow_all_title">Permetti tutti i widget</string>
+<string name="lockscreen_allow_all_summary">Permetti i widgets che non supportano nativamente la schermata di blocco</string>
+<string name="lockscreen_allow_all_warning">Alcuni widgets possono comportarsi in modo anomalo se usati nella schermata di sblocco. Altri possono esporre i tuoi dati personali a chiunque acceda al dispositivo. Ragiona su questo avvertimento prima di proseguire.</string>
+
+<!--Blacklist peek and floating mode-->
+<string name="blacklist_button_title">Lista nera</string>
+<string name="peek_blacklist_label">Lista nera per Sbirciatina</string>
+<string name="floating_blacklist_label">Lista nera per la modalità finestra</string>
+<string name="hover_blacklist_label">Lista nera per Hover</string>
+
+<!-- Hover settings -->
+<string name="hover_settings_title">Hover</string>
+<string name="hover_require_fullscreen_mode_title">Richiede Desktop esteso</string>
+<string name="hover_require_fullscreen_mode_summary">Mostra quando la barra di stato è nascosta</string>
+<string name="hover_exclude_low_priority_title">Escludi bassa priorità</string>
+<string name="hover_exclude_low_priority_summary">Escludi le notifiche contrassegnate con priorità bassa</string>
+<string name="hover_exclude_non_clearable_title">Escludi non eliminabili</string>
+<string name="hover_exclude_non_clearable_summary">Escludi le notifiche non eliminabili</string>
+
+<!-- Hover long fade out delay -->
+<string name="hover_long_fadeout_title">Dissolvenza notifica di Hover</string>
+<string name="hover_long_fadeout_3seconds">3 secondi</string>
+<string name="hover_long_fadeout_5seconds">5 secondi (default)</string>
+<string name="hover_long_fadeout_7seconds">7 secondi</string>
+<string name="hover_long_fadeout_10seconds">10 secondi</string>
+<string name="hover_long_fadeout_15seconds">15 secondi</string>
+
+<!-- Hover instant fade out delay -->
+<string name="hover_micro_fadeout_title">Tocca Hover per nascondere</string>
+<string name="hover_micro_fadeout_stock">Normale</string>
+<string name="hover_micro_fadeout_instant">immediato</string>
+
+<!-- Hover exclude topmost app -->
+<string name="hover_exclude_topmost_title">Escludi le app in uso</string>
+<string name="hover_exclude_topmost_summary">Esclude le notifiche delle app in esecuzione in primo piano</string>
+
+<!-- Hover no notif in insecure lockscreen -->
+<string name="hover_exclude_from_insecure_lock_screen_title">Escludi lo sblocco non sicuro</string>
+<string name="hover_exclude_from_insecure_lock_screen_summary">Escludere le notifiche Hover dalla schermata di blocco non sicuro</string>
 
 </resources>
