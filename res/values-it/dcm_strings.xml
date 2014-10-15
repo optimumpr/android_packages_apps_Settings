@@ -623,7 +623,7 @@
 <string name="pie_control_trigger_bottom">Attiva dal bordo inferiore dello schermo</string>
 <string name="pie_control_trigger_right">Attiva dal bordo destro dello schermo</string>
 <string name="pie_control_trigger_top">Attiva dal bordo superiore dello schermo</string>
-<string name="pie_control_trigger_top_summary">Posizionare il cerchio in alto nasconde le informazioni e lo stato dell'orologio</string>
+<string name="pie_control_trigger_top_summary">Posizionare il cerchio in alto nasconde le informazioni e lo stato dell\'orologio</string>
 <string name="pie_button_style">Stile pulsanti</string>
 <string name="pie_button_color_title">Colore pulsanti</string>
 <string name="pie_button_alpha_title">Trasparenza pulsanti</string>
