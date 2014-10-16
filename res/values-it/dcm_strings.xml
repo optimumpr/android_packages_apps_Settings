@@ -1179,7 +1179,7 @@
     <string name="battery_bar_thickness_title">Spessore barra batteria</string>
     <string name="battery_bar_animate_title">Animazione di ricarica</string>
     <string name="battery_bar_animate_summary">L\'animazione di ricarica può causare una scarsa esperienza utente. Abilitatela a vostra discrezione.</string>
-    <string name="battery_bar_reset_message">Reimpostare il colore della barra batteria predefinito?</string>
+    <string name="battery_bar_reset_message">Reimpostare il colore predefinito della barra batteria?</string>
 
 
     <!-- Switchable LockScreen Music Controller -->
