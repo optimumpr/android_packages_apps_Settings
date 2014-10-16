@@ -17,6 +17,7 @@
     <string name="reset">Ripristina</string>
     <string name="reset_colors">Reimpostare tutti i colori predefiniti?</string>
     <string name="reset_default_message">Reimpostati predefiniti</string>
+    <string name="status_bar_battery_cat_title">Batteria</string>
     <string name="status_bar_general_title">Generale</string>
     <string name="ok">OK</string>
     <string name="enabled">Attivato</string>
@@ -181,7 +182,7 @@
     <string name="shortcut_image_not_valid">L\'app scelta non ha restituito un\'icona valida o non supporta il ritaglio dell\'immagine. Utilizzare un\'altra applicazione</string>
    
     <!-- Status bar | Clock -->
-    <string name="status_bar_general_title">Generale</string>
+    <string name="status_bar_clock_custom">Data e ora Personalizzazioni</string>
     <string name="status_bar_clock">Data e ora</string>
     <string name="status_bar_clock_title">Stile data e ora</string>
     <string name="clock_title_enable">Allineamento</string>
@@ -1168,16 +1169,18 @@
     <string name="animation_duration_default">Predefinita</string>
     <string name="header_summary_animation">@null</string>
 
-     <!-- Battery Bar -->
-    <string name="battery_bar">Posizione barra Batteria</string>
-    <string name="battery_bar_animate_summary">L\'animazione di ricarica può causare una scarsa esperienza utente. Abilitatela a vostra discrezione.</string>
-    <string name="battery_bar_animate_title">Animazione di ricarica</string>
-    <string name="battery_bar_cat">Stile barra batteria</string>
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">Barra Batteria</string>
+    <string name="battery_bar_summary">Visualizzare o modificare le impostazioni della barra batteria</string>
+    <string name="battery_bar">Posizione barra Batteria</string> 
     <string name="battery_bar_color">Colore barra batteria</string>
+    <string name="battery_bar_cat">Stile barra batteria</string>
     <string name="battery_bar_style_title">Allineamento barra batteria</string>
     <string name="battery_bar_thickness_title">Spessore barra batteria</string>
-    <string name="battery_bar_title">Barra Batteria</string>
-    <string name="status_bar_battery_cat_title">Batteria</string>
+    <string name="battery_bar_animate_title">Animazione di ricarica</string>
+    <string name="battery_bar_animate_summary">L\'animazione di ricarica può causare una scarsa esperienza utente. Abilitatela a vostra discrezione.</string>
+    <string name="battery_bar_reset_message">Reimpostare il colore della barra batteria predefinito?</string>
+
 
     <!-- Switchable LockScreen Music Controller -->
     <string name="lockscreen_music_controller_title">Controlli Media</string>
