@@ -811,7 +811,10 @@
     <string name="floating_blacklist_label">Lista nera per la modalità finestra</string>
     <string name="hover_blacklist_label">Lista nera per Hover</string>
 
-    <!-- Hover settings -->
+    <!-- Hover enable/disable -->
+    <string name="hover_master_switch_title">Hover interruttore generale</string>
+    <string name="hover_master_switch_summary">Controlla per attivare o disattivare hover</string>
+
     <string name="hover_settings_title">Hover</string>
     <string name="hover_require_fullscreen_mode_title">Richiede Desktop esteso</string>
     <string name="hover_require_fullscreen_mode_summary">Mostra quando la barra di stato è nascosta</string>
@@ -844,7 +847,7 @@
     <!-- Heads up -->
     <string name="heads_up_title">Heads up</string>
     <string name="heads_up_settings_title">Notifiche avanzate heads up</string>
-     <string name="heads_up_master_switch">Heads up interruttore generale</string>
+    <string name="heads_up_master_switch">Heads up interruttore generale</string>
     <string name="heads_up_expanded_title">Sempre espanse</string>
     <string name="heads_up_expanded_summary">Mostra notifiche heads up sempre espanse</string>
     <string name="heads_up_show_updates_title">Mostra aggiornamenti</string>
