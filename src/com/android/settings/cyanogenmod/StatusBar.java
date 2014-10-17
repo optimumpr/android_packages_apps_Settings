@@ -42,7 +42,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
 
     private static final String STATUS_BAR_BATTERY = "status_bar_battery";
     private static final String STATUS_BAR_SIGNAL = "status_bar_signal";
-
+    private static final String KEY_STATUS_BAR_TICKER = "status_bar_ticker";
     private static final String STATUS_BAR_BATTERY_SHOW_PERCENT = "status_bar_battery_show_percent";
 
     private static final String STATUS_BAR_STYLE_HIDDEN = "4";
@@ -54,6 +54,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
     private ListPreference mStatusBarBattery;
     private SystemSettingCheckBoxPreference mStatusBarBatteryShowPercent;
     private ListPreference mStatusBarCmSignal;
+    private CheckBoxPreference mTicker;
     private CheckBoxPreference mStatusBarBrightnessControl;
     private CheckBoxPreference mSMSBreath;
     private CheckBoxPreference mMissedCallBreath;
@@ -100,6 +101,11 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
             prefSet.removePreference(mMissedCallBreath);
             prefSet.removePreference(mVoicemailBreath);
         }
+
+        mTicker = (CheckBoxPreference) prefSet.findPreference(KEY_STATUS_BAR_TICKER);
+        mTicker.setChecked(Settings.System.getInt(
+                getContentResolver(), Settings.System.TICKER_ENABLED, 1) == 1);
+        mTicker.setOnPreferenceChangeListener(this);
 
         mStatusBarBrightnessControl = (CheckBoxPreference)
                 prefSet.findPreference(Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL);
@@ -165,6 +171,10 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
             int index = mStatusBarCmSignal.findIndexOfValue((String) newValue);
             Settings.System.putInt(resolver, Settings.System.STATUS_BAR_SIGNAL_TEXT, signalStyle);
             mStatusBarCmSignal.setSummary(mStatusBarCmSignal.getEntries()[index]);
+            return true;
+        } else if (preference == mTicker) {
+            Settings.System.putInt(getContentResolver(), Settings.System.TICKER_ENABLED,
+                    (Boolean) newValue ? 1 : 0);
             return true;
         } else if (preference == mSMSBreath) {
             boolean value = (Boolean) newValue;

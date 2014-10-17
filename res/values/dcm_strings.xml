@@ -221,7 +221,6 @@
     <string name="clock_font_light_italic">Light Italic</string>
     <string name="clock_font_normal">Normal</string>
     <string name="clock_date_format_custom">Custom java format</string>
-    <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
     <string name="clock_use_second">Use second clock</string>
     <string name="clock_use_second_summary">Show second in clock</string>
 
@@ -1272,5 +1271,9 @@
     <string name="dynamic_system_bars_gradient_summary">Overlay a gradient on the system bars</string>
     <string name="dynamic_status_bar_filter_title">Darker status bar</string>
     <string name="dynamic_status_bar_filter_summary">Overlay a darkening filter on the status bar</string>
+
+    <!-- Ticker Notification -->
+    <string name="status_bar_ticker_title">Notification Ticker</string>
+    <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>
 
 </resources>
