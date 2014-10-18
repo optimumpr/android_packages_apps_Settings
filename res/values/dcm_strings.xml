@@ -1201,4 +1201,8 @@
     <string name="notification_custom_carrier_label_explain">Please enter a new label. Enter an empty label to revert to stock label.</string>
     <string name="notification_custom_carrier_label_notset">Custom label currently not set</string>
 
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Hardware keys option</string>
+    <string name="hw_keys_summary">Check to enable or un-check to disable hardware keys</string>
+
 </resources>
