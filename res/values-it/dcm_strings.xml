@@ -536,10 +536,10 @@
     <!-- App sidebar -->
     <string name="app_sidebar_title">Appbar</string>
     <string name="app_sidebar_enable_title">Attiva Appbar</string>
-    <string name="app_sidebar_enable_summaryOn">\@appbar è attivata</string>
-    <string name="app_sidebar_enable_summaryOff">\@appbar è disattivata</string>
+    <string name="app_sidebar_enable_summaryOn">Appbar è attivata</string>
+    <string name="app_sidebar_enable_summaryOff">Appbar è disattivata</string>
     <string name="app_sidebar_setup_items_title">Impostazioni contenuto Appbar</string>
-    <string name="app_sidebar_setup_items_summary">Aggiungi, rimuovi, e posiziona gli oggetti nella @ppbar</string>
+    <string name="app_sidebar_setup_items_summary">Aggiungi, rimuovi, e posiziona gli oggetti nella Appbar</string>
     <string name="app_sidebar_transparency_title">Trasparenza Appbar</string>
     <string name="app_sidebar_transparency_summary">Aggiusta il livello di trasparenza della Appbar</string>
     <string name="app_sidebar_position_title">Posizione Appbar</string>
@@ -550,7 +550,7 @@
     <string name="app_sidebar_hide_labels_summary">Nasconde le etichette delle icone nella Appbar</string>
     <string name="tab_category">Schede visibili</string>
     <string name="use_tab_title">Mostra le schede</string>
-    <string name="use_tab_summary">Mostra una scheda cliccabile nel lato dove visualizzare la \@appbar.</string>
+    <string name="use_tab_summary">Mostra una scheda cliccabile nel lato dove visualizzare la Appbar.</string>
     <string name="tab_position_title">Posizione scheda</string>
     <string name="tab_position_summary">Mostra la scheda in alto, a metà, o in basso lungo il lato dello schermo.</string>
     <string name="tab_size_title">Dimensione scheda</string>
@@ -1170,7 +1170,7 @@
     <string name="title_animation_no_override">Previeni sovrascrittura app</string>
     <string name="summary_animation_no_override">Previeni le app dal sovrascrivere l\'animazione.</string>
     <string name="animation_duration_default">Predefinita</string>
-    <string name="header_summary_animation">@null</string>
+    <string name="header_summary_animation">Animazioni</string>
 
     <!-- Battery Bar -->
     <string name="battery_bar_title">Barra Batteria</string>
@@ -1198,5 +1198,9 @@
     <string name="notification_custom_carrier_label_title">Etichetta gestore personalizzata</string>
     <string name="notification_custom_carrier_label_explain">Per cortesia inserisci una nuova etichetta. Lasciando l\'etichetta vuota verrà utilizzata quella predefinita.</string>
     <string name="notification_custom_carrier_label_notset">Etichetta personalizzata non impostata</string>
+    
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Opzioni pulsanti fisici</string>
+    <string name="hw_keys_summary">Aggiungi o togli la spunta per abilitare o disabilitare i tasti fisici</string>
 
 </resources>
