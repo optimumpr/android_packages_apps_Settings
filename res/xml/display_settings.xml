@@ -225,6 +225,13 @@
             android:key="extra_display_settings_category"
             android:title="@string/extra_display_settings_title">
 
+            <!-- dual panel mode -->
+            <CheckBoxPreference
+		android:key="force_dualpanel"
+		android:title="@string/force_dualpanel_title"
+		android:summary="@string/force_dualpanel_summary"
+		android:defaultValue="false" />
+
             <!-- Recent panel -->
             <PreferenceScreen
                 android:key="recent_panel"
