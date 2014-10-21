@@ -16,15 +16,22 @@
 
 package com.android.settings.crdroid;
 
+import android.app.ActivityManager;
+import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.util.Helpers;
 
 import java.util.List;
 
@@ -32,8 +39,10 @@ public class AdvancedSettings extends SettingsPreferenceFragment
         implements OnPreferenceChangeListener {
 
     private static final String PREF_MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
+    private static final String RESTART_SYSTEMUI = "restart_systemui";
 
     private ListPreference mMsob;
+    private Preference mRestartSystemUI;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,6 +56,22 @@ public class AdvancedSettings extends SettingsPreferenceFragment
         mMsob.setSummary(mMsob.getEntry());
         mMsob.setOnPreferenceChangeListener(this);
 
+        mRestartSystemUI = findPreference(RESTART_SYSTEMUI);
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if (preference == mRestartSystemUI) {
+            Helpers.restartSystemUI();
+        }
+
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     @Override
