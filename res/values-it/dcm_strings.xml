@@ -280,6 +280,7 @@
     <string name="peek_wake_20seconds">20 secondi</string>
     <string name="peek_wake_30seconds">30 secondi</string>
 
+    <!-- Wakelock blocker -->
     <string name="wakelock_blocker">Blocca Wakelock</string>
     <string name="wakelock_blocker_title">Attiva</string>
     <string name="wakelock_blocker_summary">Attiva il blocco wakelocks per le app selezionate</string>
@@ -576,7 +577,6 @@
     <string name="gesture_anywhere_position_right">Bordo destro</string>
     <string name="gesture_anywhere_gestures_title">Gesti</string>
     <string name="gesture_anywhere_gestures_summary">Aggiungi, rimuovi, e modifica gesti</string>
-
     <!-- Label, button used to add a gesture -->
     <string name="ga_button_add">Aggiungi gesto</string>
     <!-- Label, button used to reload all gestures -->
@@ -662,6 +662,8 @@
     <string name="pie_style_reset_message">Ripristina gli stili predefiniti?</string>
     <string name="pie_disable_ime_triggers_title">Riduci gli attivatori con la tastiera</string>
     <string name="pie_disable_ime_triggers_summary">Riduce la dimensione degli attivatori a destra e sinistra se è attiva la tastiera</string>
+    <string name="pie_trigger_sensitivity_title">Sensibilità attivatori"</string>
+    <string name="pie_trigger_sensitivity_summary">Aggiusta la sensibilità delle aree di attivazione</string>
     <string name="title_pref_menu_display">Visibilità menu</string>
     <string name="summary_pref_menu_display">Quando e come vuoi far apparire i pulsanti del menu?</string>
     <string name="navigation_menu_default_jb_behavior">A richiesta (predefinito)</string>
