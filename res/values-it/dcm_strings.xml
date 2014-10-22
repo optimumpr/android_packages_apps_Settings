@@ -1184,7 +1184,6 @@
     <string name="battery_bar_animate_summary">L\'animazione di ricarica può causare una scarsa esperienza utente. Abilitatela a vostra discrezione.</string>
     <string name="battery_bar_reset_message">Reimpostare il colore predefinito della barra batteria?</string>
 
-
     <!-- Switchable LockScreen Music Controller -->
     <string name="lockscreen_music_controller_title">Controlli Media</string>
     <string name="lockscreen_music_controller_summary">Mostra controlli e copertina dell\'album quando riproduci musica</string>
@@ -1202,5 +1201,66 @@
     <!-- Ability to disable hardware keys via nav bar settings -->
     <string name="hw_keys_title">Opzioni pulsanti fisici</string>
     <string name="hw_keys_summary">Aggiungi o togli la spunta per abilitare o disabilitare i tasti fisici</string>
+
+    <!-- Force dual panel -->
+    <string name="force_dualpanel_title">Modalità Schermo diviso</string>
+    <string name="force_dualpanel_summary">usa le opzioni in stile tablet per dividere lo schermo </string>
+
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">Modalità On-The-Go</string>
+    <string name="title_tile_onthego">On-The-Go</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Riavvia l\'interfaccia di sistema</string>
+
+    <!-- LCD Density -->
+    <string name="dpi">DPI</string>
+    <string name="su_dialog_error_title">Attenzione</string>
+    <string name="su_dialog_error_message">Si è verificato un errore.\n\nControlla di avere i permessi di root. Per attivare andare in impostazioni superuser e abilitare l\'accesso root.</string>
+    <string name="lcd_density_title">Densità LCD</string>
+    <string name="lcd_density_category">Opzioni</string>
+    <string name="follow_through_summary">Cambiare la densità LCD può causare il malfunzionamento di alcune app e/o indicare alcune app come non compatibili nel playstore</string>
+    <string name="stock_density_title">Ripristina predefinito</string>
+    <string name="stock_density_summary">I tablet usano solitamente 160 dpi mentre i dispositivi di fascia alta anche 320 o 480 dpi. I vecchi dispositivi spesso 240 dpi</string>
+    <string name="stock_density_changed_summary">"Densità impostata: "</string>
+    <string name="reboot_title">Riavvia il dispositivo</string>
+    <string name="reboot_summary">Devi riavviare il dispositivo per rendere effettive le modifiche</string>
+    <string name="custom_density_title">Cambia in ciò che vuoi</string>
+    <string name="custom_density_summary_invalid">"Densità non valida!"</string>
+    <string name="custom_density">Personalizzata</string>
+    <string name="set_custom_density_title">Imposta densità personalizzata</string>
+    <string name="set_custom_density_set">Setta</string>
+    <string name="custom_density_dialog_title">ATTENZIONE!</string>
+    <string name="custom_density_dialog_summary">Cambiare la densità LCD può causare il malfunzionamento di alcune app e/o indicare alcune app come non compatibili nel playstore</string>
+    <string name="custom_density_dialog_button_got">Fatto!</string>
+    <string name="custom_density_dialog_button_reboot">Riavvia ora</string>
+
+    <!-- Identicons -->
+    <string name="identicons_title">Identicone</string>
+    <string name="identicons_enabled_title">Identicone</string>
+    <string name="identicons_enabled_summary">Utilizza una Identicona come immagine durante la creazione di nuovi contatti</string>
+    <string name="identicons_style_title">Stile Identicona</string>
+    <string name="identicons_style_summary">Scegli uno stile Identicona</string>
+    <string name="identicons_create_title">Crea identicone</string>
+    <string name="identicons_create_summary">Crea Identicone per i contatti esistenti senza immagine</string>
+    <string name="identicons_creation_service_running_title">Creazione identicone</string>
+    <string name="identicons_creation_service_running_summary"></string>
+    <string name="identicons_creation_service_contact_summary">Processando %s</string>
+    <string name="identicons_creation_service_contact_summary_finishing">Collegando i campi liberi...</string>
+    <string name="identicons_remove_title">Rimuovi identicone</string>
+    <string name="identicons_remove_summary">Rimuove le Identicone dai contatti</string>
+    <string name="identicons_remove_service_running_title">Rimozione Identicone</string>
+    <string name="identicons_remove_service_running_summary"></string>
+    <string name="identicons_remove_service_contact_summary">Processando foto %1$d/%2$d</string>
+    <string name="identicons_remove_service_contact_summary_finishing">Collegando i campi liberi...</string>
+    <string name="identicons_style_retro">Retrò</string>
+    <string name="identicons_style_contemporary">Contemporaneo</string>
+    <string name="identicons_style_spirograph">Spirografo</string>
+    <string name="identicons_style_dotmatrix">Matrice di punti</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Mostra info CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Sovrimpressione delle info CPU a schermo</string>
 
 </resources>
