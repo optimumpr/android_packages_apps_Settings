@@ -6,7 +6,7 @@
     <string name="dcm_version_title">DarkCyanogenMod version</string>    
     
     <!-- DO NOT TRANSLATE THIS STRING -->
-    <string name="dcm_version_default">8.00</string>    
+    <string name="dcm_version_default">7.00</string>    
 
     <!-- DCM Translator strings -->
     <string name="translator_title">DarkCyanogenMod Info</string>
