@@ -32,10 +32,6 @@ public class BatteryBar extends SettingsPreferenceFragment implements OnPreferen
     private static final String PREF_BATT_BAR_WIDTH = "battery_bar_thickness";
     private static final String PREF_BATT_ANIMATE = "battery_bar_animate";
 
-    private static final int MENU_RESET = Menu.FIRST;
-
-    private static final int DLG_RESET = 0;
-
     private ListPreference mCircleAnimSpeed;
     private ListPreference mBatteryBar;
     private ListPreference mBatteryBarStyle;
@@ -74,24 +70,6 @@ public class BatteryBar extends SettingsPreferenceFragment implements OnPreferen
 
         updateBatteryBarOptions();
         setHasOptionsMenu(true);
-    }
-
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_RESET, 0, R.string.ram_bar_button_reset)
-                .setIcon(R.drawable.ic_settings_backup) // use the backup icon
-                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS); 
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case MENU_RESET:
-                resetToDefault();
-                return true;
-            default: 
-                return super.onContextItemSelected(item);
-        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

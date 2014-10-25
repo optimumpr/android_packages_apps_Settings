@@ -40,8 +40,6 @@ public class StatusBarNetworkTraffic extends SettingsPreferenceFragment
     private CheckBoxPreference mNetTrafficAutohide;
     private SeekBarPreferenceChOS mNetTrafficAutohideThreshold;
 
-    private static final int MENU_RESET = Menu.FIRST;
-
     private int mNetTrafficVal;
     private int MASK_UP;
     private int MASK_DOWN;
@@ -111,17 +109,6 @@ public class StatusBarNetworkTraffic extends SettingsPreferenceFragment
             mNetTrafficPeriod.setEnabled(true);
             mNetTrafficAutohide.setEnabled(true);
             mNetTrafficAutohideThreshold.setEnabled(true);
-        }
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case MENU_RESET:
-                resetToDefault();
-                return true;
-            default:
-                return super.onContextItemSelected(item);
         }
     }
 
