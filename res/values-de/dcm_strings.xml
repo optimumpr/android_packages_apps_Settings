@@ -3,14 +3,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, DarkCM version -->
-    <string name="dcm_version_title">DarkCyanogenMod version</string>    
-    
-    <!-- DO NOT TRANSLATE THIS STRING -->
-    <string name="dcm_version_default">7.00</string>    
+    <string name="dcm_version_title">DarkCyanogenMod version</string>
 
     <!-- DCM Translator strings -->
     <string name="translator_title">DarkCyanogenMod Info</string>
-    <string name="translator_error">Nicht in der Lage DarkCyanogenMod Info zu laden</string>    
+    <string name="translator_error">Nicht in der Lage DarkCyanogenMod Info zu laden</string>
 
     <!-- General strings --> 
     <string name="attention">Achtung</string>
@@ -666,7 +663,7 @@
     <string name="pie_disable_ime_triggers_title">Reduzieren Trigger Größe für Tastatur</string>
     <string name="pie_disable_ime_triggers_summary">Reduziert linke und rechte Trigger Größe, wenn Tastatur aktiv ist</string>
     <string name="pie_trigger_sensitivity_title">Auslöser Empfindlichkeit"</string>
-    <string name="pie_trigger_sensitivity_summary">Stellen Sie die Pie Auslöserempfindlichkeit ein</string    
+    <string name="pie_trigger_sensitivity_summary">Stellen Sie die Pie Auslöserempfindlichkeit ein</string>
     <string name="title_pref_menu_display">Menü Sichtbarkeit</string>
     <string name="summary_pref_menu_display">Wie und wann möchten Sie die Menü Tasten erscheinen lassen?</string>
     <string name="navigation_menu_default_jb_behavior">Show on request (Standard)</string>
@@ -938,7 +935,7 @@
     <string name="listview_bounce_interpolator">Hüpfen</string>    
     
     <!-- App moving to SD -->
-    <string name="app_moving_enable">App verschieben aktivieren/string>
+    <string name="app_moving_enable">App verschieben aktivieren</string>
     <string name="app_moving_disable">App verschieben deaktivieren</string>
     <string name="app_moving_reboot_title">Neustart?</string>
     <string name="app_moving_reboot_enabled_desc">Successfully enabled application moving.\n\nThe device needs to be rebooted for the setting to take effect.</string>
@@ -1225,7 +1222,7 @@
     <string name="lcd_density_title">LCD DPI Werte</string>
     <string name="lcd_density_category">Einstellung</string>
     <string name="follow_through_summary">Ändern der Standard LCD DPI kann manchmal dazu führen, das bestimmte Apps nicht richtig funktionieren und / oder the playstore to show apps being incompatible with your device</string>
-    <string name="stock_density_title">Wechseln Sie DPI Werte/string>
+    <string name="stock_density_title">Wechseln Sie DPI Werte</string>
     <string name="stock_density_summary">Tablets verwenden in der Regel 160 dpi, während High-End-Geräte verwenden 320 oder 480 dpi. Ältere Geräte verwenden 240 dpi</string>
     <string name="stock_density_changed_summary">"DPI eingestellt: "</string>
     <string name="reboot_title">Gerät neustarten</string>
