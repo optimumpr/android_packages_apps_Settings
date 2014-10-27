@@ -127,8 +127,8 @@
     <string name="lock_numpad_random_on_request">Auf Anfrage</string>
 
     <!-- Lock before unlock -->
-    <string name="lock_before_unlock_title">Show slider before secure unlock</string>
-    <string name="lock_before_unlock_summary">Show slider lockscreen before secure unlock mechanism</string>
+    <string name="lock_before_unlock_title">Zeige Schieber vor sicherem entsperren</string>
+    <string name="lock_before_unlock_summary">Zeige Schieber vor sicherem entsperren</string>
 
     <!--  Recent clear all -->
     <string name="recent_clear_all_button">Schaltfläche alles löschen letzte Apps</string>
@@ -713,8 +713,8 @@
     <string name="shortcut_action_help_button">Taste</string>
     <string name="shortcut_action_help_icon">, Gehen Sie auf das Symbol, es öffnen sich Anpassungsmöglichkeiten</string>
     <string name="shortcut_action_help_main">Um eine %1$s hinzuzufügen, wählen Sie das Symbol hinzufügen. Sobald ein %1$s hinzugefügt ist, wird die Zeile das Ziel ändern  %2$s\n\nUm eine %1$s zu entfernen, streichen Sie die Zeile horizontal nach links oder rechts.  Umordnen einer %1$s in der Liste durch vertikales Ziehen der Anker auf der linken Seite.\n\Löschen oder auf die Standardwerte zurückzusetzen, wählen Sie das Symbol Zurücksetzen.</string>
-    <string name="shortcut_action_help_delete_last_entry">Removing every %1$s in the list will disable the feature entirely.</string>
-    <string name="shortcut_action_help">Help</string>
+    <string name="shortcut_action_help_delete_last_entry">Alle %1$s entfernen, in der Liste wird die Funktion komplett deaktiviert.</string>
+    <string name="shortcut_action_help">Hilfe</string>
 
     <string name="icon_picker_type">Wählen Sie Symboltyp: </string>
     <string name="icon_default">Standard</string>
@@ -942,8 +942,8 @@
     <string name="app_moving_enable">App verschieben aktivieren</string>
     <string name="app_moving_disable">App verschieben deaktivieren</string>
     <string name="app_moving_reboot_title">Neustart?</string>
-    <string name="app_moving_reboot_enabled_desc">Successfully enabled application moving.\n\nThe device needs to be rebooted for the setting to take effect.</string>
-    <string name="app_moving_reboot_disabled_desc">Successfully disabled application moving.\n\nThe device needs to be rebooted for the setting to take effect.</string>
+    <string name="app_moving_reboot_enabled_desc">App verschieben erfolreich aktiviert.\n\nDas Gerät muss neu gestartet werden damit Einstellungen wirksam werden.</string>
+    <string name="app_moving_reboot_disabled_desc">App verschieben erfolreich deaktiviert.\n\nDas Gerät muss neu gestartet werden damit Einstellungen wirksam werden.</string>
     <string name="app_moving_reboot_now_button">Neustart</string>
     <string name="app_moving_reboot_later_button">Später neustarten</string>
     
