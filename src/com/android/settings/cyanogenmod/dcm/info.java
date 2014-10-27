@@ -1,4 +1,4 @@
-package com.android.settings.cyanogenmod;
+package com.android.settings.cyanogenmod.dcm;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Translator extends Fragment {
-    private static final String TRANSLATOR_PATH = "/system/etc/TRANSLATOR-DCM.txt";
+public class info extends Fragment {
+    private static final String INFO_PATH = "/system/etc/INFO-DCM.txt";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,13 +28,13 @@ public class Translator extends Fragment {
             char tmp[] = new char[2048];
             int numRead;
 
-            inputReader = new FileReader(TRANSLATOR_PATH);
+            inputReader = new FileReader(INFO_PATH);
             while ((numRead = inputReader.read(tmp)) >= 0) {
                 data.append(tmp, 0, numRead);
             }
             text = data.toString();
         } catch (IOException e) {
-            text = getString(R.string.changelog_error);
+            text = getString(R.string.info_dcm_error);
         } finally {
             try {
                 if (inputReader != null) {

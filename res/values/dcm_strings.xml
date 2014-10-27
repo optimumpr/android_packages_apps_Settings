@@ -8,9 +8,13 @@
     <!-- DO NOT TRANSLATE THIS STRING -->
     <string name="dcm_version_default">7.00</string>
 
-    <!-- DCM Translator strings -->
-    <string name="translator_title">DarkCyanogenMod Info</string>
-    <string name="translator_error">Unable to load DarkCyanogenMod Info</string>
+    <!-- DCM info strings -->
+    <string name="info_dcm_title">DarkCyanogenMod Info</string>
+    <string name="info_dcm_error">Unable to load DarkCyanogenMod Info</string>
+
+    <!-- DCM changelog strings -->
+    <string name="changelog_dcm_title">DarkCyanogenMod changelog</string>
+    <string name="changelog_dcm_error">Unable to load DarkCyanogenMod changelog</string>
 
     <!-- General strings -->
     <string name="attention">Attention</string>
