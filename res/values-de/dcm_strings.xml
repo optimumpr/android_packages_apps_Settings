@@ -11,7 +11,7 @@
 
     <!-- DCM changelog strings -->
     <string name="changelog_dcm_title">DarkCyanogenMod changelog</string>
-    <string name="changelog_dcm_error">Nicht in der Lage DarkCyanogenMod Info zu laden</string>
+    <string name="changelog_dcm_error">Nicht in der Lage DarkCyanogenMod Changelog zu laden</string>
 
     <!-- General strings --> 
     <string name="attention">Achtung</string>
