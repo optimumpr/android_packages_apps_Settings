@@ -6,8 +6,8 @@
     <string name="dcm_version_title">Versione DarkCyanogenMod</string>
 
     <!-- DCM Translator strings -->
-    <string name="translator_title">Info DarkCyanogenMod</string>
-    <string name="translator_error">Impossibile caricare Info DarkCyanogenMod</string>
+    <string name="info_dcm_title">Info DarkCyanogenMod</string>
+    <string name="info_dcm_error">Impossibile caricare Info DarkCyanogenMod</string>
 
     <!-- DCM changelog strings -->
     <string name="changelog_dcm_title">Novità DarkCyanogenMod</string>
