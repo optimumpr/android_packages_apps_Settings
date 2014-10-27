@@ -5,9 +5,13 @@
     <!-- About phone screen, DarkCM version -->
     <string name="dcm_version_title">DarkCyanogenMod version</string>
 
-    <!-- DCM Translator strings -->
-    <string name="translator_title">DarkCyanogenMod Info</string>
-    <string name="translator_error">Nicht in der Lage DarkCyanogenMod Info zu laden</string>
+    <!-- DCM info strings -->
+    <string name="info_dcm_title">DarkCyanogenMod Info</string>
+    <string name="info_dcm_error">Nicht in der Lage DarkCyanogenMod Info zu laden</string>
+
+    <!-- DCM changelog strings -->
+    <string name="changelog_dcm_title">DarkCyanogenMod changelog</string>
+    <string name="changelog_dcm_error">Nicht in der Lage DarkCyanogenMod Info zu laden</string>
 
     <!-- General strings --> 
     <string name="attention">Achtung</string>
