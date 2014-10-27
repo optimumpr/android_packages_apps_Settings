@@ -9,6 +9,10 @@
     <string name="translator_title">Info DarkCyanogenMod</string>
     <string name="translator_error">Impossibile caricare Info DarkCyanogenMod</string>
 
+    <!-- DCM changelog strings -->
+    <string name="changelog_dcm_title">Novità DarkCyanogenMod</string>
+    <string name="changelog_dcm_error">Impossibile caricare le novità della DarkCyanogenMod</string>
+
     <!-- General strings -->
     <string name="attention">Attenzione</string>
     <string name="misc_title">Varie</string>
@@ -188,8 +192,6 @@
     <string name="clock_title_enable">Allineamento</string>
     <string name="clock_enabled">Attivato</string>
     <string name="clock_disabled">Disattivato</string>
-    <string name="clock_color_title">Colore</string>
-    <string name="status_bar_clock_style_reset">Reimposta colore</string>
     <string name="status_bar_show_clock_title">Mostra data e ora</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">Usa il formato 24 ore</string>
@@ -220,7 +222,6 @@
     <string name="clock_font_light_italic">Corsivo leggero</string>
     <string name="clock_font_normal">Normale</string>
     <string name="clock_date_format_custom">Formato java personalizzato</string>
-    <string name="status_bar_clock_style_reset_message">Ripristinare il colore dell\'orologio?</string>
     <string name="clock_use_second">Usa orologio secondario</string>
     <string name="clock_use_second_summary">Mostra i secondi sull\'orologio</string>
 
@@ -903,9 +904,6 @@
     <string name="network_traffic_autohide">Auto eclissa</string>
     <string name="network_traffic_autohide_summary">Nasconde il monitoraggio del traffico quando inattivo</string>
     <string name="network_traffic_autohide_threshold">Soglia inattività</string>
-    <string name="network_traffic_color_style">Stile colore</string>
-    <string name="network_traffic_color_reset">Ripristina colore</string>
-    <string name="network_traffic_color_reset_message">Ripristinare il colore predefinito del traffico di rete?</string>
 
     <!-- Animation settings -->
     <string name="animation_settings_title">Animazione</string>
@@ -1178,14 +1176,12 @@
     <string name="battery_bar_title">Barra Batteria</string>
     <string name="battery_bar_summary">Visualizzare o modificare le impostazioni della barra batteria</string>
     <string name="battery_bar">Posizione barra Batteria</string> 
-    <string name="battery_bar_color">Colore barra batteria</string>
     <string name="battery_bar_cat">Stile barra batteria</string>
     <string name="battery_bar_style_title">Allineamento barra batteria</string>
     <string name="battery_bar_thickness_title">Spessore barra batteria</string>
     <string name="battery_bar_animate_title">Animazione di ricarica</string>
     <string name="battery_bar_animate_summary">L\'animazione di ricarica può causare una scarsa esperienza utente. Abilitatela a vostra discrezione.</string>
-    <string name="battery_bar_reset_message">Reimpostare il colore predefinito della barra batteria?</string>
-
+ 
     <!-- Switchable LockScreen Music Controller -->
     <string name="lockscreen_music_controller_title">Controlli Media</string>
     <string name="lockscreen_music_controller_summary">Mostra controlli e copertina dell\'album quando riproduci musica</string>
@@ -1264,5 +1260,16 @@
     <string name="show_cpu_info">Mostra info CPU</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Sovrimpressione delle info CPU a schermo</string>
+
+    <!-- Dynamic system bars -->
+    <string name="dynamic_system_bars_title">Barre di sistema dinamiche</string>
+    <string name="dynamic_status_bar_title">Barra di stato dinamica</string>
+    <string name="dynamic_status_bar_summary">Aggiorna automaticamente lo sfondo della barra di stato</string>
+    <string name="dynamic_navigation_bar_title">Barra di navigazione dinamica</string>
+    <string name="dynamic_navigation_bar_summary">Aggiorna automaticamente lo sfondo della barra di navigazione</string>
+    <string name="dynamic_system_bars_gradient_title">Gradiente barra di sistema</string>
+    <string name="dynamic_system_bars_gradient_summary">Sovrappone un gradiente alla barra di sistema</string>
+    <string name="dynamic_status_bar_filter_title">Scurisci la barra di stato</string>
+    <string name="dynamic_status_bar_filter_summary">Annerisce la barra di stato</string>
 
 </resources>
