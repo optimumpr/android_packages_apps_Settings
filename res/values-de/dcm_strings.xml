@@ -557,7 +557,7 @@
     <string name="use_tab_title">Tab anzeigen</string>
     <string name="use_tab_summary">Zeigt einen sichtbaren Tab auf der Seite,welches die \@appbar anzeigt bei Berührung.</string>
     <string name="tab_position_title">Tab Ort</string>
-    <string name="tab_position_summary">Den Tab oben, mitte, oder unten am Bildschirmrand anzeiegn.</string>
+    <string name="tab_position_summary">Den Tab oben, mitte, oder unten am Bildschirmrand anzeigen.</string>
     <string name="tab_size_title">Tabgröße</string>
     <string name="tab_size_summary">Größe des sichtbaren Tabs ändern.</string>
     <string name="trigger_category">Auslöser</string>
@@ -819,7 +819,7 @@
     <string name="hover_blacklist_label">Schwarze Liste von Hover</string>
 
     <!-- Hover settings neu-->
-    <string name="hover_master_switch_title">Hover master switch</string>
+    <string name="hover_master_switch_title">Hover Hauptschalter</string>
     <string name="hover_master_switch_summary">Check to enable or un-check to disable hover</string>
        
     <string name="hover_settings_title">Hover</string>
@@ -887,7 +887,7 @@
     <string name="heads_up_floating_window">Starte im schwebenden Fenster</string>
     
     <!-- Heads-up disable on lockscreen -->
-    <string name="heads_up_exclude_from_lock_screen">Disable on lockscreen</string>   
+    <string name="heads_up_exclude_from_lock_screen">Im Sperrbilschirm deaktivieren</string>   
     
     <!-- Network traffic -->
     <string name="network_traffic_title">Netzwerk Datenzähler</string>
@@ -1053,7 +1053,7 @@
     <string name="time_five_to">Fünf bis</string>
 
     <!-- Lockscreen battery ring -->
-    <string name="battery_around_lockscreen_ring">Battery around unlock ring</string>
+    <string name="battery_around_lockscreen_ring">Batterieanzeige um den Entsperrring</string>
 
     <!-- Overscroll effects -->
     <string name="ui_overscroll_title">Übergangs Effekt</string>
@@ -1066,7 +1066,7 @@
     <string name="light_title">Licht</string>
     <string name="extra_light_title">Extra Licht</string>
     <string name="overscroll_title">Übergangs Effekt</string>
-    <string name="overscroll_summary">Choose how scrollable objects look when they overshoot</string>
+    <string name="overscroll_summary">Wählen Sie wie scrollbare Objekte aussehen sollen wenn sie darüber hinaus schießen</string>
     <string name="overscroll_weight_title">Übergangs Stärke</string>
     <string name="overscroll_weight_summary">Wählen Sie die Stärke der Übergangs Objekte</string>
 
@@ -1078,11 +1078,11 @@
     <string name="mcps_2">Aggressiv</string>
 
     <!-- Art Runtime -->
-    <string name="custom_runtime_warning_message_dcm">ART is not officially supported by DarkCyanogenMod ROM as it is highly experimental and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+    <string name="custom_runtime_warning_message_dcm">ART wird nicht offiziell von DarkCyanogenMod ROM unterstützt - as it is highly experimental and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
 
     <!-- QuickSettings fliptiles -->
-    <string name="flip_qs_tiles_title">Flip tiles</string>
-    <string name="flip_qs_tiles_summary">Flips the tiles on touch</string>
+    <string name="flip_qs_tiles_title">Kacheln drehen</string>
+    <string name="flip_qs_tiles_summary">Drehen der Kacheln bei Berührung</string>
 
     <!-- SmoothProgressBar -->
     <string name="progressbar_title">Benutzerdefinierte Fortschrittsanzeige</string>
@@ -1175,7 +1175,7 @@
     <string name="animation_duration_title">Animation Duration</string>  
     <string name="title_animation_no_override">Prevent App Overrides</string>  
     <string name="summary_animation_no_override">Prevent apps from overriding transitions.</string>  
-    <string name="animation_duration_default">Default</string>
+    <string name="animation_duration_default">Standard</string>
     <string name="header_summary_animation">@null</string>
 
     <!-- Battery Bar -->
@@ -1188,7 +1188,7 @@
     <string name="battery_bar_thickness_title">Batterieleisten Stärke</string>
     <string name="battery_bar_animate_title">Ladeanimation</string>
     <string name="battery_bar_animate_summary">Die Lade Animation kann zu einer schlechten Benutzererfahrung führen. Aktivieren nach eigenem Ermessen.</string>
-    <string name="battery_bar_reset_message">Batteriebalkenfarbe auf Standard setzen??</string>
+    <string name="battery_bar_reset_message">Batteriebalkenfarbe auf Standard setzen?</string>
 
     <!-- Switchable LockScreen Music Controller -->
     <string name="lockscreen_music_controller_title">Media Controller</string>
@@ -1205,7 +1205,7 @@
     <string name="notification_custom_carrier_label_notset">Benutzerdefinierter Provideranzeige derzeit nicht gesetzt</string>
 
     <!-- Ability to disable hardware keys via nav bar settings -->
-    <string name="hw_keys_title">Option Hardwaretasten</string>
+    <string name="hw_keys_title">Einstellung Hardwaretasten</string>
     <string name="hw_keys_summary">Check to enable or un-check to disable hardware keys</string>
 
     <!-- Force dual panel -->
