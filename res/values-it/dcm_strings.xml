@@ -28,6 +28,9 @@
     <string name="disabled">Disattivato</string>
     <string name="note">NOTA</string>
 
+    <!-- Performance : Force high-end graphics -->
+    <string name="pref_force_highend_gfx_summary2">Abilita gli effetti visivi quali barre di stato/navigazione trasparenti, barre di sistema dinamiche e gli effetti di sfocatura sulla schermata di blocco (richiedono il riavvio)</string>
+
     <!-- Advanced settings -->
     <string name="advanced_options_settings_title">Opzioni avanzate</string>
 
@@ -1125,15 +1128,6 @@
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Forza notifiche espanse</string>
     <string name="notification_force_expand_summary">forza le notifiche in modalità espansa se supportato</string>
-
-     <!-- Sound themes -->
-    <string name="sound_packages_title">Pacchetti audio</string>
-    <string name="install_sound_pack_title">Installa pacchetti audio</string>
-    <string name="install_sound_pack_summary">Installare i nuovi pacchetti audio aggiunti nella cartella Soundpacks della memoria interna</string>
-    <string name="select_sound_pack_title">Seleziona pacchetto audio</string>
-    <string name="select_sound_pack_summary">Selezionare il pacchetto audio attivo</string>
-    <string name="default_sound_pack">Predefinito (Sistema)</string>
-    <string name="error_pack_install">Errore durante l\'installazione del pacchetto audio</string>
 
     <!-- Breathing Notifications -->
     <string name="breathing_notifications_title">Notifiche pulsanti</string>
