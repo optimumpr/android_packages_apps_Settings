@@ -231,13 +231,6 @@
                 android:title="@string/lcd_density_title"
                 android:fragment="com.android.settings.du.Density" />
 
-            <!-- dual panel mode -->
-            <CheckBoxPreference
-		android:key="force_dualpanel"
-		android:title="@string/force_dualpanel_title"
-		android:summary="@string/force_dualpanel_summary"
-		android:defaultValue="false" />
-
             <!-- Recent panel -->
             <PreferenceScreen
                 android:key="recent_panel"
