@@ -3,18 +3,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, DCM version -->
-    <string name="dcm_version_title">DarkCyanogenMod version</string>
+    <string name="dcm_version_title">Black Argon version</string>
 
     <!-- DO NOT TRANSLATE THIS STRING -->
-    <string name="dcm_version_default">8.00</string>
+    <string name="dcm_version_default">2.00</string>
 
     <!-- DCM info strings -->
-    <string name="info_dcm_title">DarkCyanogenMod Info</string>
-    <string name="info_dcm_error">Unable to load DarkCyanogenMod Info</string>
+    <string name="info_dcm_title">Black Argon Info</string>
+    <string name="info_dcm_error">Unable to load Black Argon Info</string>
 
     <!-- DCM changelog strings -->
-    <string name="changelog_dcm_title">DarkCyanogenMod changelog</string>
-    <string name="changelog_dcm_error">Unable to load DarkCyanogenMod changelog</string>
+    <string name="changelog_dcm_title">Black Argon changelog</string>
+    <string name="changelog_dcm_error">Unable to load Black Argon changelog</string>
 
     <!-- General strings -->
     <string name="attention">Attention</string>
