@@ -666,8 +666,6 @@
     <string name="pie_style_reset_message">Ripristina gli stili predefiniti?</string>
     <string name="pie_disable_ime_triggers_title">Riduci gli attivatori con la tastiera</string>
     <string name="pie_disable_ime_triggers_summary">Riduce la dimensione degli attivatori a destra e sinistra se è attiva la tastiera</string>
-    <string name="pie_trigger_sensitivity_title">Sensibilità attivatori"</string>
-    <string name="pie_trigger_sensitivity_summary">Aggiusta la sensibilità delle aree di attivazione</string>
     <string name="title_pref_menu_display">Visibilità menu</string>
     <string name="summary_pref_menu_display">Quando e come vuoi far apparire i pulsanti del menu?</string>
     <string name="navigation_menu_default_jb_behavior">A richiesta (predefinito)</string>
@@ -1193,10 +1191,6 @@
     <!-- Ability to disable hardware keys via nav bar settings -->
     <string name="hw_keys_title">Opzioni pulsanti fisici</string>
     <string name="hw_keys_summary">Aggiungi o togli la spunta per abilitare o disabilitare i tasti fisici</string>
-
-    <!-- Force dual panel -->
-    <string name="force_dualpanel_title">Modalità Schermo diviso</string>
-    <string name="force_dualpanel_summary">usa le opzioni in stile tablet per dividere lo schermo </string>
 
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">Modalità On-The-Go</string>
